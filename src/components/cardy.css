@@ -1,0 +1,102 @@
+.programs{
+    margin-top: 10rem;
+    }
+    .program_wrapper{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 3rem;
+        margin-top: 4rem;
+    }
+    .programs_program a{
+        margin-top: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .programs_program:hover a{
+        background: #38b6ff ;
+        color: var(--color-gray-600); }
+    
+    .values_container {
+        display: grid;
+        grid-template-columns: 38% 50%;
+        gap:12%;
+    }
+    .values_image{
+        filter: saturate(0.5);
+        transition: var(--transition);
+    }
+    .values_image:hover{
+        filter: saturate(0.92);
+    }
+    .values_right > p{
+        margin: 1.5rem 0 5rem;
+    }
+    .values_wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3.4rem 2.4rem;
+    
+    
+    }
+
+    .card{
+        background: var(--color-gray-500);
+        border: 2px solid transparent;
+        text-align: center;
+        align-self: normal;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 1 21rem ;
+        flex-direction: column;
+        padding: 3rem 2rem ;
+        border-radius: 0 3rem 0 3rem;
+        transition: var(--transition);
+       }
+       .card:hover{
+        background: transparent;
+        border-color: var(--color-gray-100);
+         cursor:default;
+       }
+       .imgy{
+        border-radius: 1rem;
+        width: 100%;
+       }
+       .card .imgy{
+      width: 12rem;
+      height: 12rem;
+      background: var(--color-gray-600);
+      color: var(--color-gray-100);
+      font-size: 1.5rem;
+      padding: 0.8rem;
+      display: grid;
+      place-items: center;
+      margin-bottom: 1.5rem;
+      margin-inline: auto;
+      border-radius: 1rem;
+      transition: var(--transition);
+       }
+       .card:hover span{
+        background-color: #38b6ff;
+        color: var(--color-gray-600);
+   }
+   .card small {
+    margin-top: 1rem;
+    display: block;
+    font-weight: 300;
+    }
+    section {
+  margin-top: 10rem;
+}
+.section_head{
+  display: flex;
+  align-items: center;
+  gap:1rem;
+}
+.section_head span{
+  background: var(--color-gray-500);
+  padding: 0.8rem;
+   border-radius: 1rem;
+   color: #38b6ff;
+   font-size: 1.5rem;
+     }
